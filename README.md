@@ -1,38 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pipeline de contatos - Projeto em React e Next.js
 
-## Getting Started
+Este é um projeto em construção de um gerenciador de registro de contato com os clientes de um banco, desenvolvido em React e Next.js. A ferramenta tem como objetivo facilitar a organização dos gerentes, permitindo que registrem os contatos que têm com seus clientes de forma eficiente.
 
-First, run the development server:
+# Funcionalidades Principais
 
-```bash
+1 - Incluir dados básicos do cliente:
+
+- Nome do cliente: Permite inserir o nome completo do cliente.
+- Data do contato telefônico ou visita: Permite registrar a data em que ocorreu o contato inicial com o cliente, seja por telefone ou em uma visita pessoal.
+- Data de retorno do contato futuro: Possibilita definir uma data para o próximo contato com o cliente.
+
+2 - Registrar o produto ofertado ao cliente:
+
+- O sistema permite adicionar informações sobre os produtos específicos oferecidos ao cliente durante o contato.
+
+3 - Adicionar observações do contato:
+
+- Há a possibilidade de adicionar observações relevantes sobre o contato realizado com o cliente. Isso ajuda a documentar informações importantes ou requisitos específicos discutidos durante a interação.
+
+# Como Executar o Projeto
+
+Siga as instruções abaixo para executar o projeto em seu ambiente de desenvolvimento:
+
+Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixar a versão mais recente do Node.js em https://nodejs.org.
+
+Faça o clone deste repositório para o diretório de sua escolha.
+
+Abra o terminal e navegue até o diretório raiz do projeto.
+
+Execute o seguinte comando para instalar as dependências do projeto:
+
+Copy code
+npm install
+Após a conclusão da instalação das dependências, inicie o servidor de desenvolvimento executando o seguinte comando:
+
+arduino
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Aguarde até que o servidor de desenvolvimento seja iniciado. O console exibirá a URL na qual você poderá acessar o projeto no seu navegador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra seu navegador e acesse a URL exibida para visualizar o gerenciador de registro de contato com clientes.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Contribuindo
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está em fase de construção e aceitamos contribuições. Se você deseja contribuir para o desenvolvimento deste projeto, sinta-se à vontade para abrir uma nova issue ou enviar um pull request.
