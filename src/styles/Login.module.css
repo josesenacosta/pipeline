@@ -1,0 +1,36 @@
+.container {
+  padding: 50px 24px;
+  height: 100vh;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.formArea {
+  width: 100%;
+}
+
+.inputArea {
+  margin-bottom: 32px;
+}
+
+.forgetArea {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  color: #1b1b1b;
+  width: fit-content;
+  padding-bottom: 62px;
+  position: relative;
+}
+
+.singupArea {
+  margin-top: 32px;
+}
+
