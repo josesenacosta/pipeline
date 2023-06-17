@@ -1,0 +1,23 @@
+.container {
+  height: 100px;
+  width: 202px;
+  background-color: #E3F5FF;
+  border-radius: 8px;
+}
+
+.container {
+  padding: 12px;
+  color: #1c1c1c;
+  overflow: hidden;
+}
+.iconArea {
+  font-size: 24px;
+}
+.quantityArea {
+  font-size: 24px;
+  font-weight: 600;
+}
+.titleArea {
+  font-size: 14px;
+  font-weight: 600;
+}

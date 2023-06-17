@@ -2,16 +2,18 @@ import styles from '@/styles/Login.module.css'
 import InputField from '@/components/InputField'
 import { useState } from 'react'
 import Button from '@/components/Button';
-
+import { useRouter } from 'next/router';
 
 
 export default function Login() {
 
   const [user, setUser] = useState('');
   const [password, setPassword] = useState('')
+  const router = useRouter();
+
 
   const handleSubmit = () => {
-    console.log('Logou')
+    router.push('/dashboard')
   }
 
   const handleSingup = () => {
